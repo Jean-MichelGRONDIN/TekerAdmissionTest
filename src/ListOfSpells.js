@@ -8,7 +8,7 @@ class ListOfSpells extends React.Component {
         };
     }
     searchRequest() {
-        fetch('https://www.potterapi.com/v1/spells?key=$2a$10$vRqIA/iN4ePx.YGXb7CVfOSDmdSQegUZv1nbtBoijHwo1D3xvRiIq')
+        fetch('https://www.potterapi.com/v1/spells?key=MY_HARRY_POTTER_API_KEY')
         .then(res => res.json())
         .then((data) => {
         this.updateSpellsList(data)

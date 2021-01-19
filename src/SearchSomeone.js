@@ -23,7 +23,7 @@ class SearchSomeone extends React.Component {
         };
     }
     searchRequest() {
-        var url = "https://www.potterapi.com/v1/characters?key=$2a$10$vRqIA/iN4ePx.YGXb7CVfOSDmdSQegUZv1nbtBoijHwo1D3xvRiIq";
+        var url = "https://www.potterapi.com/v1/characters?key=MY_HARRY_POTTER_API_KEY";
         if (this.state.name != "")
             url = url + "&" + "name=" + this.state.name;
         if (this.state.house != "")
